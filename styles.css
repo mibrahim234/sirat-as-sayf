@@ -150,6 +150,11 @@ p, h3 {
     margin: 0 auto;
 }
 
+.intro img {
+    width: 50%;
+    margin: 10px 0;
+}
+
 /* What you do */
 .steps {
     text-align: center;
@@ -189,4 +194,8 @@ p, h3 {
   
   .secondary-border {
     border-color: #024e76;
+  }
+
+  .steps span {
+    font-size: 38px; 
   }
