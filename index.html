@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sirat Saif</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header tag holds info about the content, 
+        tells user what the page is for and what the user can expect -->
+    <header> 
+        <h1>
+            <!-- / refers to the home -->
+            <a href="/">SIRAT AS-SAYF</a>
+        </h1>
+
+        <!-- Nav should be in header -->
+    <nav> 
+        <!-- Unordered list: comes with bullet points -->
+        <ul>
+ <!-- the # are id's which when we click we can go directly to that section -->
+            <li>
+               <a href="#what-we-do">What We Do</a>  
+            </li>
+            <li>               
+                 <a href="#what-you-do">What You Do</a>  
+            </li>
+
+            <li>
+             <a href="#your-trainers">Your Trainers</a>
+            </li>
+
+            <li>
+                <a href="#reach-out">Reach Out</a>
+            </li>
+        </ul>
+    </nav>
+</header>
+
+<!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-form">
+            <h3>Get Started Today!</h3>
+            <p>Fill out this form and one of our trainers will schedule a consult.</p>
+
+            <!-- Add form element -->
+            <form>
+                <label for="name">Enter full name:</label>
+                <input type="text" placeholder="Your Name" name="name" id="name" class="form-input">
+
+                <label for="email">Enter email address: </label>
+                <input type="email" placeholder="Email Address" name="email" id="email" class="form-input">
+
+                <label for="phone">Enter a telephone number:</label>
+                <input type="tel" placeholder="Phone Number" name="phone" id="phone" class="form-input">
+
+                <!-- Check box/radio btn -->
+                <p>
+                    Have you worked out with a trainer before?
+                    <input type="radio" name="trainer-confirm" id="trainer-yes" />
+                    <label for="trainer-yes">Yes</label>
+                    <input type="radio" name="trainer-confirm" id="trainer-no" />
+                    <label for="trainer-no">No</label>
+                </p>
+                <!-- Acknowledge checkbox -->
+                <p>
+                    <label for="checkbox" >
+                      I acknowledge that I am at least 18 years of age.
+                    </label>
+                    <input type="checkbox" name="age-confirm" id="checkbox" />
+                  </p>
+                <button type="submit">Start Training!</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- What we do -->
+    <section id="what-we-do" class="intro">
+        <h2 class="section-title primary-border">What We Do</h2>
+            <div>
+        <img src="./images/teamsiratsaif.jpg" alt="">
+        <p>Martial arts is a unique discipline that brings together mental and physical fitness with self-mastery. At our studio, our renowned instructors will guide you through the training process and help you to achieve the uppermost levels in your choice of martial arts. Sirat As-Sayf Mma provides group and individual classes which are suitable for first-time beginners or experts alike.</p>
+    </div>
+    </section>
+
+     <!-- What you do -->
+     <section id="what-you-do" class="steps">
+        <h2 class="section-title secondary-border">What You Do</h2>
+
+        <div>
+            <!-- Img element -->
+            <img src="./images/siratsnaji1.jpg" alt="">
+            <h3>Step 1: Fill Out the Form Above.</h3>
+            <p>You're already here, so why not?</p>
+        </div>
+
+        <div>
+            <img src="./images/siratnaji2.jpg" alt="">
+            <h3>Step 2: Consult with One of Our Trainers.</h3>
+            <p>Are you here to build muscle, lose weight, or just feel good?</p>
+          </div>
+        
+          <div>
+            <img src="./images/siratsaif3najirahmat.jpg" alt="">
+            <h3>Step 3: Start Training.</h3>
+            <p>Hit the ground running (literally) once your trainer lays out your plan.</p>
+          </div>
+        
+          <div>
+            <img src="./images/sirat as saif.jpg" alt="">
+            <h3>Step 4: See Results.</h3>
+            <p>Bi-weekly checkins with your trainer will keep you focused</p>
+          </div>
+    </section>
+
+     <!-- Meet the trainers -->
+     <section id="your-trainers">
+        <h2>Meet The Trainers</h2>
+    </section>
+
+     <!-- Reach Out -->
+     <section id="reach-out">
+        <h2>Reach Out</h2>
+    </section>
+
+
+    <!-- Footer -->
+        <footer>
+     <h2>Made by Sirat As-Saif</h2>
+     <div>
+    <a href="#">Read Our Privacy Policy</a> <br />
+    &copy; 2022 Sirat As-Saif, Inc. 
+    </div>
+    </footer>
+</body>
+</html>
